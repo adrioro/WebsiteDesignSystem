@@ -9,7 +9,7 @@ h1{
 h2{
     font-weight: 100;
 }
-.palette {
+.palette, .uses, .buttons {
     width: 70%;
     height: 100%;
     border: 1px solid red;
@@ -26,17 +26,80 @@ h2{
     color:aliceblue;
 }
 .wine {
-    background-color: #723d46ff;;
+    background-color: #723d46ff;
 }
 .mindaro {
-    background-color: #d0dd8bff;;
+    background-color: #d0dd8bff;
 }
 .powder {
-    background-color: #96aec7ff;;
+    background-color: #96aec7ff;
 }
 .lapis {
-    background-color: #4b6d91ff;;
+    background-color: #4b6d91ff;
 }
 .prussian {
-    background-color: #083654ff;;
+    background-color: #083654ff;
+}
+.darkgray {
+    background-color: #080f14;
+}
+.aliceblue {
+    background-color: #f0f8ff;
+    color: #080f14;
+}
+.aliceblue p {
+    color: #080f14;
+}
+
+
+.logo img {
+    width: 180px; 
+    height: 180px;
+      
+}
+.note {
+    width: 140px; 
+    height: 90px;
+    border: 3px solid rgb(20, 160, 123); 
+    border-radius:3px; 
+    
+}
+.item {
+    display: inline-block;   
+    vertical-align: middle;
+    text-align: center;   
+    
+}
+span {
+    font-weight: bold;
+}
+.bts li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 3px; 
+}
+.bts {
+    border: 1px solid red;
+    width: 50%;
+    margin: 0 auto;
+}
+.one {
+    background-color: #723d46ff;
+    color: white;
+}
+.two {
+    background-color: #083654ff;
+    color: white;
+}
+.three {
+    background-color: #96aec7ff;
+    color: #080f14ff;
+}
+.btcolors {
+    width: 50%;
+    text-align: left;
+    border: 1px solid red;
+    margin: 0 auto;
+    
 }
