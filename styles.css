@@ -83,6 +83,7 @@ span {
     border: 1px solid red;
     width: 50%;
     margin: 0 auto;
+    padding-left: 0;
 }
 .one {
     background-color: #723d46ff;
@@ -100,6 +101,26 @@ span {
     width: 50%;
     text-align: left;
     border: 1px solid red;
+    margin: 0 auto;  
+}
+.icons {
+    border: 1px solid red;
+    width: 50%;
     margin: 0 auto;
+    padding-left: 0;
     
+    
+}
+.icons li {
+    display:inline-block;
+    margin-left: 0; 
+    border: 1px solid red;  
+    text-align: center; 
+    padding: 0 9px;
+}
+.icons li img {
+    width: 90px;   
+}
+.iconbox span {
+    color: green; 
 }
