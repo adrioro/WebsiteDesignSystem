@@ -3,14 +3,17 @@
     <head>
         <title>Style Guide</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@100;200;300;500&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     </head>
     <body>
+        <h1 class="maintitle">Portfolio Website Style Guide</h1>
         <!-- Colors Section -->
-        <section>
-            <h1>Portfolio Website Style Guide</h1>
+                  
             <div class="palette">
                 <h2>Colors</h2>
-                <div class="color wine"><p>Wine</p><p>#723d46ff</p></div>
+                <div class="color mint"><p>Mint</p><p>#723d46ff</p></div>
                 <div class="color mindaro"><p>Mindaro</p><p>#d0dd8bff</p></div>
                 <div class="color powder"><p>Powder Blue</p><p>#96aec7ff</p></div>
                 <div class="color lapis"><p>Lapis Lazuli</p><p>#4b6d91ff</p></div>
@@ -24,7 +27,8 @@
                 <div class="item note"><p>Contrast Ratio</p><span>12.6:1</span></div>
             </div>
             <div class="buttons">
-                <h2>Buttons</h2>
+                <h2>UI components</h2>
+                <p class="ui">Buttons</p>
                 <p>The following color combinations pass the following level of accessibility compliance: Normal Text WCAG AA. WCAG AAA, Large Text WCAG AA. WCAG AAA and Graphical Object WCAG AA.  </p>
                 <ul class="bts">
                     <li class="button one">Button 1</li>
@@ -32,24 +36,80 @@
                     <li class="button three">Button 3</li>
                 </ul>
                 <div class="btcolors">
-                    <p><span>Button 1:</span> Background Color:#723d46ff (Wine), text color: #f0f8ff (Aliceblue) </p>
+                    <p><span>Button 1:</span> Background Color:#34cc9c (Mint), text color: ##080f14ff (Dark Gray) </p>
                     <p><span>Button 2:</span> Background Color:#083654ff (Prussian Blue), text color: #f0f8ff (Aliceblue) </p>
                     <p><span>Button 3:</span> Background Color:#96aec7ff (Powder Blue), text color: #080F14 (Dark Gray) </p>
                 </div>
              <div class="iconbox">
-                <h2>Icons</h2>
+                <p class="ui">Icons</p>
                 <ul class="icons">
                     <li><img src="images/2.png" alt="icon html"></li>
                     <li><img src="images/4.png" alt="icon coding"></li>
                     <li><img src="images/1.png" alt="icon html"></li>
                 </ul>
-                <p>Graphical Objects and User Interface Components WCAG AA:<span> PASS </span></p>
+                <p>Graphical Objects and User Interface Components WCAG AA:<span> &#x2714; </span></p>
              </div>   
             </div>
-        </section>
+        
         <!-- Fonts Section -->
-        <section></section>
+        <div class="fonts">
+            <h2>Fonts</h2>
+            <div class="font">    
+                <ul>
+                    <h3>Montserrat</h3>
+                    <li class="montserrat melight">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="montserrat melightitalic">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="montserrat ml">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="montserrat mlitalic">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="montserrat monmedium">The quick brown fox jumps over the lazy dog.</li>
+                </ul>
+            </div>
+            <div class="font">  
+                <ul>
+                    <h3>Inter</h3>
+                    <li class="inter int1">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="inter int2">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="inter int3">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="inter int4">The quick brown fox jumps over the lazy dog.</li>
+                </ul>
+            </div>
+            <div class="font"> 
+                <ul>
+                    <h3>Courier Prime</h3>
+                    <li class="courier prime1">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="courier prime2">The quick brown fox jumps over the lazy dog.</li>
+                </ul>
+            </div>   
+            <div class="font"> 
+                <ul>
+                    <h3>Roboto</h3>
+                    <li class="roboto roreg">The quick brown fox jumps over the lazy dog.</li>
+                    <li class="roboto roital">The quick brown fox jumps over the lazy dog.</li>
+                </ul>
+            </div>          
+        </div>
         <!-- Text Styles Section -->
-        <section></section>
+            <div class="textstyles">
+                <h2>Text Styles</h2>
+                
+                <ul>
+                    <h1 class="h1main">H1: Main page heading</h1>
+                    <li>Font Family: Montserrat</li>
+                    <li>Font Weight: 500</li>
+                    <li>Font Size: 45px</li>
+                </ul>
+                <ul>
+                    <h2 class="subheading">H2: Subheading</h2>
+                    <li>Font Family: Inter</li>
+                    <li>Font Weight: 300</li>
+                    <li>Font Size: 30px</li>
+                </ul>
+                <ul>
+                    <p class="para">P: Paragraph text</p>
+                    <li>Font Family: Roboto</li>
+                    <li>Font Weight: ?</li>
+                    <li>Font Size: 16px</li>
+                </ul>
+            </div>
     </body>
 </html>

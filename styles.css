@@ -1,13 +1,16 @@
-* { 
-    font-family: Arial, Helvetica, sans-serif;
-}
-h1{
+
+h1.maintitle{
     text-transform: uppercase;
     font-weight: 100;
     text-align: center;
 }
 h2{
-    font-weight: 100;
+    font-weight: 200;
+    text-align: center;
+}
+p.ui {
+    font-size: 20px;
+
 }
 .palette, .uses, .buttons {
     width: 70%;
@@ -15,6 +18,7 @@ h2{
     border: 1px solid red;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 30px;
 }
 .color {
     width: 120px;
@@ -24,9 +28,10 @@ h2{
 }
 .color p {
     color:aliceblue;
+    text-align: center;
 }
-.wine {
-    background-color: #723d46ff;
+.mint {
+    background-color: #34cc9c;
 }
 .mindaro {
     background-color: #d0dd8bff;
@@ -73,7 +78,7 @@ h2{
 span {
     font-weight: bold;
 }
-.bts li {
+.bts .one, .two, .three {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 5px;
@@ -86,8 +91,8 @@ span {
     padding-left: 0;
 }
 .one {
-    background-color: #723d46ff;
-    color: white;
+    background-color: #34cc9c;
+    color: #080f14ff;
 }
 .two {
     background-color: #083654ff;
@@ -107,9 +112,7 @@ span {
     border: 1px solid red;
     width: 50%;
     margin: 0 auto;
-    padding-left: 0;
-    
-    
+    padding-left: 0; 
 }
 .icons li {
     display:inline-block;
@@ -121,6 +124,130 @@ span {
 .icons li img {
     width: 90px;   
 }
+
 .iconbox span {
     color: green; 
 }
+.buttons p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.iconbox h2 {
+    margin-bottom: 30px;
+
+}
+.fonts {
+    border: 1px solid red;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}
+
+.font {
+    display: inline-block;
+    margin-top: 30px;   
+}
+/* Inter */
+
+.inter {
+    font-family: Inter; 
+}
+.int1 {
+    font-weight: 100;
+}
+.int2 {
+    font-weight: 200;
+}
+.int3 {
+    font-weight: 300;
+}
+.int4 {
+    font-weight: 500;
+}
+/* Montserrat */
+
+.montserrat {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+.melight {
+    font-weight: 200;
+}
+.melightitalic {
+    font-weight: 200;
+    font-style: italic;
+}
+.ml {
+    font-weight: 400;
+
+}
+.mlitalic {
+    font-weight: 400;
+    font-style: italic;
+
+}
+.monmedium {
+    font-weight: 500;
+}
+
+/* Courier */
+
+.courier {
+    font-family: "Courier Prime", 'Courier New', Courier, monospace;
+}
+.prime1 {
+    font-weight: 400;
+}
+.prime2 {
+    font-weight: 700;
+}
+.font ul {
+    list-style-type: none;
+}
+.textstyles {
+    border: 1px solid red;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.h1main {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 45px;
+}
+.textstyles ul {
+    border: 1px solid red;
+    width: 50%;
+    margin: 0 auto;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.textstyles .textstyles h1, textstyles p {
+    text-align: left;
+}
+.subheading {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+.para {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+}
+.roboto {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+}
+.roital {
+    font-style: italic;    
+}
+.subheading {
+    text-align: left;
+}
+body {
+    margin-bottom: 30px;
+}
+
