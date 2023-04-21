@@ -5,6 +5,42 @@ h1.maintitle{
     text-align: center;
     padding: 30px 3px;
 }
+.menu {
+    width: 70%;
+    margin: 0 auto;
+    padding:3px;
+    margin-bottom: 20px;
+}
+.menu ul {
+    margin: 0 auto;
+    padding: 0;
+    display: table;
+    
+    
+}
+.menu ul li {
+    border: 1px solid rgb(22, 18, 18);
+    display:inline-block;
+    font-size: 18px; 
+    padding: 10px 20px;    
+}
+.menubutton {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;  
+}
+.menu ul li a {
+    color: rgb(22, 18, 18);
+}
+.menu ul li:hover {
+    background-color:#e9e8e8;
+}
+.menu ul li:active {
+    background-color:#818080;
+}
+.menu ul li a:active {
+    color: white;
+}
 h2{
     font-weight: 200;
     text-align: center;
@@ -150,8 +186,7 @@ span {
     margin: 0 auto;
     margin-bottom: 30px;
     padding-top: 15px;
-    padding-bottom:15px;
-    
+    padding-bottom:15px; 
 }
 
 .font {
