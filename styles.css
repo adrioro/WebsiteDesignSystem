@@ -3,6 +3,7 @@ h1.maintitle{
     text-transform: uppercase;
     font-weight: 100;
     text-align: center;
+    padding: 30px 3px;
 }
 h2{
     font-weight: 200;
@@ -10,12 +11,15 @@ h2{
 }
 p.ui {
     font-size: 20px;
-
+}
+.palette {
+    background-color: #e9e8e8;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .palette, .uses, .buttons {
     width: 70%;
     height: 100%;
-    border: 1px solid red;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 30px;
@@ -25,6 +29,7 @@ p.ui {
     height: 120px;
     margin: 30px 15px;
     display: inline-block;
+    
 }
 .color p {
     color:aliceblue;
@@ -85,7 +90,6 @@ span {
     border-radius: 3px; 
 }
 .bts {
-    border: 1px solid red;
     width: 50%;
     margin: 0 auto;
     padding-left: 0;
@@ -105,11 +109,9 @@ span {
 .btcolors {
     width: 50%;
     text-align: left;
-    border: 1px solid red;
     margin: 0 auto;  
 }
 .icons {
-    border: 1px solid red;
     width: 50%;
     margin: 0 auto;
     padding-left: 0; 
@@ -117,9 +119,9 @@ span {
 .icons li {
     display:inline-block;
     margin-left: 0; 
-    border: 1px solid red;  
     text-align: center; 
     padding: 0 9px;
+    padding: 9px;
 }
 .icons li img {
     width: 90px;   
@@ -128,19 +130,24 @@ span {
 .iconbox span {
     color: green; 
 }
+.buttons {
+    background-color: #e9e8e8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .buttons p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .iconbox h2 {
     margin-bottom: 30px;
-
 }
 .fonts {
-    border: 1px solid red;
     width: 70%;
     margin: 0 auto;
     margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom:15px;
     
 }
 
@@ -205,10 +212,11 @@ span {
     list-style-type: none;
 }
 .textstyles {
-    border: 1px solid red;
     width: 70%;
     margin: 0 auto;
-    
+    background-color: #e9e8e8;
+    padding-top: 15px;  
+    padding-bottom: 15px;
 }
 .h1main {
     font-family: Montserrat;
@@ -216,7 +224,6 @@ span {
     font-size: 45px;
 }
 .textstyles ul {
-    border: 1px solid red;
     width: 50%;
     margin: 0 auto;
     list-style-type: none;
